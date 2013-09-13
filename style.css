@@ -1,0 +1,26 @@
+/*
+Theme Name:     CALS - WAES
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+
+.home.right-sidebar #content {  /* hack over-riding unknown .right-sidebar style */
+	margin-right: 8px;	
+
+}
+#access {
+	margin: 1.6em 0 0;	
+}
+#access ul li {
+	max-width: 12.5%;
+}
+#access ul li a {
+	line-height: 1.6em;
+	text-align: left;	
+}
