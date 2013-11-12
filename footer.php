@@ -75,7 +75,7 @@
         </div>
         
         <div class="copyright">
-        	<div>&copy;Copyright 2013. All rights reserved. College of Agricultural and Life Sciences - University of Wisconsin-Madison.</div>
+
 	        <img src="<?php echo get_template_directory_uri(); ?>/images/uwcrest_footer.png" alt="University of Wisconsin Madison" align="center" />
         </div>
 			<?php
