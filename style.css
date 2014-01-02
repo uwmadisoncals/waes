@@ -8,71 +8,7 @@ Template:       calswptheme
 Version:        0.1.0
 */
 
-@import url("../calswptheme/style.css");
+@import url("../calsmain2013/master.css");
 
 
 
-/* NAVIGATION */
-
-#access {
-	background: none;
-	position: relative;
-	top: 28px;
-}
-#access ul {
-	position: relative;
-	height: 36px;
-}
-#access ul li {
-	max-width: 14%;
-	height: 100%;
-	margin-right: 5px;
-	background-color: #2B2A28;
-	padding: 4px 0
-}
-#access ul li a {
-	line-height: 1.4em;
-	text-align: left;	
-	font-weight: 400;
-	height: 100%;
-
-}
-#access ul ul {
-	top: 38px;
-	width: 140px;
-}
-#access ul li ul li {
-	display: block;
-	float: none;
-	background: none;
-}
-#access ul ul a {
-	width: 140px;
-}
-
-.widget-title {
-	line-height: 1.7em;
-}
-
-.textwidget p {
-	line-height: 1.5em;
-}
-
-.whitebox {
-	padding: 0 8px;
-	margin: 0 auto 20px;
-	background: white;
-	width: 80%;
-	border: 1px solid #f1f1f1;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	float: left;
-}
-
-@media only screen and (min-width : 640px) and (max-width : 960px) {
-	#access li:nth-last-child(-n+2){
-		display: none;
-	}
-
-}
