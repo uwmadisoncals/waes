@@ -11,3 +11,6 @@ Version:        0.1.0
 @import url("../calsmain2013/master.css");
 
 
+.page-id-17 .entry-content ul {
+	list-style-type: none;
+}
