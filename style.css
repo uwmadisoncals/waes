@@ -17,3 +17,6 @@ Version:        0.1.0
 #text-3 ul {
 	margin-left: 15px;
 }
+#content {
+	min-height: 400px;
+}
