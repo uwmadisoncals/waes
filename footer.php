@@ -12,72 +12,53 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
+		<div class="ieFooter">
 		<div class="inner">
 			<div id="pre-footer">
+			<div class="linksContainer">
+			<h3>Resources</h3>
         	<ul id="quick_links">
             	<li class="quick_links_list">
-                	<ul>
-                    	<li class="quick_links_list_title">Students</li>
-                        <li><a href="https://learnuw.wisc.edu/" title="Learn@UW">Learn@UW</a></li>
-                        <li><a href="https://courses.cals.wisc.edu/cals/" title="CALS Course Pages">Course Pages</a></li>
-                        
-                        <li><a href="/students/undergraduate-programs/advising/" title="Advising">Advising</a></li>
-                        <li><a href="/students/undergraduate-programs/financial-aid/" title="Financial Aid">Financial Aid</a></li>
-                        <li><a href="/students/undergraduate-programs/ups-office/">Undergraduate Programs &amp; Services</a></li>
-                        
-                        <li><a href="http://www.cals.wisc.edu/gradstudies/" title="Graduate Studies">Graduate Studies</a></li>
-                        <li><a href="/students/undergraduate-programs/career-development/" title="Career Services">CALS Career Services</a></li>
-                	
-                      <li><a href="https://cals-wisc-csm.symplicity.com/students/" title="BuckyNet">BuckyNet</a></li>
-                    </ul>
+                	<?php wp_nav_menu( array( 'theme_location' => 'footer1' ) ); ?>
        	      </li>
             	<li class="quick_links_list">
-                	<ul>
-                    	<li class="quick_links_list_title">Alumni &amp; Friends</li>
-                        <li><a href="/alumni-friends/get-involved/" title="Get Involved">Get Involved</a></li>
-                        <li><a href="/alumni-friends/enhance-your-career/" title="Enhance Your Career">Enhance Your Career</a></li>
-                        <li><a href="http://www.supportuw.org/making-a-gift/school-college/cals/" title="Give to CALS">Give to CALS</a></li>
-                        <li><a href="http://www.today.wisc.edu/" title="Campus Events">Campus Events</a></li>
-                        <li><a href="http://cals.wisc.edu/grow/" title="Grow Magazine">Grow Magazine</a></li>
-                        <li><a href="http://www.uwalumni.com/" title="Wisconsin Alumni Association">WAA</a></li>
-                        <li><a href="http://walsaa.org/" title="Wisconsin Agriculture and Life Sciences Alumni Association">WALSAA</a></li>
-                        <li><a href="http://www.uwbadgers.com/" title="UW Athletics">UW Athletics</a></li>
-                    </ul>
+                	<?php wp_nav_menu( array( 'theme_location' => 'footer2' ) ); ?>
             </li>
-            	<li class="quick_links_list">
-            	  <ul>
-            	    <li class="quick_links_list_title">Industry &amp; Community</li>
-            	    <li><a href="/industry-community/get-help/find-a-expert/" title="Find an Expert">Find an Expert</a></li>
-            	    <li><a href="/industry-community/training-and-professional-development/" title="Training and Professional Development">Training and Professional Development</a></li>
-            	    <li><a href="/industry-community/research-partnerships/" title="Research Partnerships">Research Partnerships</a></li>
-            	    <li><a href="/students/undergraduate-programs/career-development/" title="CALS Career Services">CALS Career Services</a></li>
-            	    <li><a href="http://fisc.cals.wisc.edu/" title="Farm and Industry Short Course">Farm and Industry Short Course</a></li>
-            	    <li><a href="http://www.uwex.edu/" title="UW-Extension">UW-Extension</a></li>
-            	    <li><a href="http://www.ocr.wisc.edu/" title="Office of Corporate Relations">Office of Corporate Relations</a></li>
-            	    <li><a href="http://www.warf.org/index.jsp" title="WARF">WARF</a></li>
-          	    </ul>
-          	    </li>
-            	<li class="quick_links_list">
-                	<ul>
-                    	<li class="quick_links_list_title">Faculty &amp; Staff</li>
-                        <li><a href="http://ecals.cals.wisc.edu/">eCALS</a></li>
-                        <li><a href="/contact/cals-directory/" title="CALS Directory Search">Directory Search</a></li>
-                        <li><a href="/academics/departments/" title="CALS Departments">Departments</a></li>
-                        <li><a href="http://www.cals.wisc.edu/students/Advising/" title="Advising">Advising</a></li>
-                        <li><a href="http://www.cals.wisc.edu/HR/" title="Human Resources">Human Resources</a></li>
-                        <li><a href="http://www.cals.wisc.edu/bussvc/" title="CALS Business Services">Business Services</a></li>
-                        <li><a href="/about-cals/research-centers/" title="CALS Research Centers">Research Centers</a></li>
-                        <li><a href="http://www.cals.wisc.edu/research/" title="Research Division">Research Division</a></li>
-                    </ul>
-                </li>                                
+            	                              
             </ul>
             <div class="clearfix"></div>
+			</div>
+			
+			<div class="linksContainer right">
+				<h3>Support</h3>
+				<p>You can help support the College of Agricultural &amp; Life Sciences by making a gift to the 
+University of Wisconsin Foundation.</p>
+				<a href="http://supportuw.org/giveto/cals" class="button">Make a Gift</a>
+				<p class="address">College of Agriculture and Life Sciences | 1450 Linden Drive | Madison, WI 53706 | 608.262.1251 | <a href="mailto:info@cals.wisc.edu">info@cals.wisc.edu</a></p>
+			</div>
+			<div class="clearfix"></div>
         </div>
         
         <div class="copyright">
-        	<div>&copy;Copyright 2013. All rights reserved. College of Agricultural and Life Sciences - University of Wisconsin-Madison.</div>
-	        <img src="<?php echo get_template_directory_uri(); ?>/images/uwcrest_footer.png" alt="University of Wisconsin Madison" align="center" />
+        	<img src="<?php echo get_template_directory_uri(); ?>/images/footercrest2.png" alt="University of Wisconsin Madison" align="center" />
+        	<div>&copy;Copyright 2013 The Board of Regents of the University of Wisconsin System <a href="http://wisc.edu">University of Wisconsin-Madison</a></div>
+	        
+	        
+	       
         </div>
+        
+        <div class="socialRef">
+			<a href="https://twitter.com/UWMadisonCALS" title="Follow Us on Twitter" class="twitter">Twitter</a>
+			<a href="http://www.flickr.com/photos/uwmadisoncals/" title="View our photostream" class="flickr">Flickr</a>
+			<a href="http://www.linkedin.com/groups?gid=5062996" class="linkedin">LinkedIn</a>
+			<a href="http://www.youtube.com/user/UWMadisonCALS" title="Our latest videos" class="youtube">Youtube</a>
+			<a href="https://www.facebook.com/UWMadisonCALS" title="Like us on Facebook" class="facebook">Facebook</a>
+			
+		</div>
+			<div class="clearfix"></div>
+        </div>
+        
+        
 			<?php
 				/* A sidebar in the footer? Yep. You can can customize
 				 * your footer with four columns of widgets.
@@ -86,11 +67,15 @@
 					get_sidebar( 'footer' );
 			?>
 		</div>
-			
+	</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+ <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/min/master.min.js"></script>
+
+<!--<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/snowfeature.js"></script>-->
 
 </body>
 </html>
