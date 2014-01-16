@@ -38,9 +38,9 @@ Version:        0.1.0
 #text-3 ul {
 	margin-left: 15px;
 }
-.featureCaption h2, .featureCaption .featuresubtitle {
+/*.featureCaption h2, .featureCaption .featuresubtitle {
 	display: none;
-}
+}*/
 
 #branding #s {
 	text-transform: lowercase;
