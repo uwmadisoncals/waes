@@ -21,21 +21,21 @@
             	<li class="quick_links_list">
                 	<?php wp_nav_menu( array( 'theme_location' => 'footer1' ) ); ?>
        	      </li>
-            	<li class="quick_links_list">
+<!--             	<li class="quick_links_list">
                 	<?php wp_nav_menu( array( 'theme_location' => 'footer2' ) ); ?>
-            </li>
+            	</li> -->
             	                              
             </ul>
             <div class="clearfix"></div>
 			</div>
 			
 			<div class="linksContainer right">
-				<h3>Support</h3>
+				<!-- <h3>Support</h3>
 				<p>You can help support the College of Agricultural &amp; Life Sciences by making a gift to the 
 University of Wisconsin Foundation.</p>
 				<a href="http://supportuw.org/giveto/cals" class="button">Make a Gift</a>
 				<p class="address">College of Agriculture and Life Sciences | 1450 Linden Drive | Madison, WI 53706 | 608.262.1251 | <a href="mailto:info@cals.wisc.edu">info@cals.wisc.edu</a></p>
-			</div>
+			</div> -->
 			<div class="clearfix"></div>
         </div>
         
@@ -46,15 +46,6 @@ University of Wisconsin Foundation.</p>
 	        
 	       
         </div>
-        
-        <div class="socialRef">
-			<a href="https://twitter.com/UWMadisonCALS" title="Follow Us on Twitter" class="twitter">Twitter</a>
-			<a href="http://www.flickr.com/photos/uwmadisoncals/" title="View our photostream" class="flickr">Flickr</a>
-			<a href="http://www.linkedin.com/groups?gid=5062996" class="linkedin">LinkedIn</a>
-			<a href="http://www.youtube.com/user/UWMadisonCALS" title="Our latest videos" class="youtube">Youtube</a>
-			<a href="https://www.facebook.com/UWMadisonCALS" title="Like us on Facebook" class="facebook">Facebook</a>
-			
-		</div>
 			<div class="clearfix"></div>
         </div>
         
