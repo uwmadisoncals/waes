@@ -25,7 +25,7 @@ get_header(); ?>
 
       		<div class="topShade"></div>
 			<div class="bottomShade"></div>			
-			<h2>Current Formula Grant Deadline</h2>
+			<!-- <h2>Current Formula Grant Deadline</h2> -->
 			<?php
 				if (have_posts()) : while (have_posts()) : the_post();
 				the_content(); 
