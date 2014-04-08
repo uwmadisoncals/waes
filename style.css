@@ -40,11 +40,16 @@ Text Domain: CALS
 .widget ul {
 	margin-left: 15px;
 }
-/*.featureCaption h2, .featureCaption .featuresubtitle {
-	display: none;
-}*/
 
 #branding #s {
 	text-transform: lowercase;
 	font-weight: normal;
+}
+
+footer .inner .copyright {
+	margin: 0;
+}
+
+footer#colophon {
+	min-height: 170px;
 }
