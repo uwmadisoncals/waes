@@ -16,7 +16,7 @@
 		<div class="inner">
 		<div class="copyright">
         	<img src="<?php echo get_template_directory_uri(); ?>/images/footercrest2.png" alt="University of Wisconsin Madison" align="center" />
-        	<div>&copy;Copyright <?php echo date("Y"); ?> The Board of Regents of the University of Wisconsin System <a href="http://wisc.edu">University of Wisconsin-Madison</a></div>  
+        	<div>&copy;Copyright <?php echo date("Y"); ?> The Board of Regents of the University of Wisconsin System <a href="http://wisc.edu">University of Wisconsin-Madison.</a></div>  
         </div>       
         
 			<?php get_sidebar( 'footer' ); ?>
